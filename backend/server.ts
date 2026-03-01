@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://next-js-project-topaz-pi.vercel.app/',
+  origin: process.env.FRONTEND_URL || 'https://next-js-project-topaz-pi.vercel.app',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-csrf-token']
