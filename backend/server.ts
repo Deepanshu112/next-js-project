@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://your-frontend-domain.vercel.app"],
+    origin: ["http://localhost:3000", "https://next-js-project-topaz-pi.vercel.app/"],
     credentials: true,
   })
 )
